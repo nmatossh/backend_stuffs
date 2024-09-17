@@ -8,13 +8,13 @@ body, td, th {
 }
 
 body {
-    background-color: #22554e;
+    background-color: #1a403c;
     padding: 20px;
     max-width: 1200px; /* Límite de ancho para pantallas grandes */
     }
 
 a:link, a:visited, a:active {
-    color: #1b1c1d;
+    color: #8cd0ca;
     text-decoration: none;
 }
 
