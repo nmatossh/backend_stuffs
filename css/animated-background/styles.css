@@ -1,0 +1,43 @@
+/* Estilos del cuerpo de la página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #222222; /* Color de fondo */
+    overflow: hidden;
+}
+
+/* Fondo animado */
+.animated-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('tile.png'); /* Reemplaza con tu imagen */
+    background-repeat: repeat;
+    background-size: auto;
+    animation: moveBackground 300s linear infinite; /* Ajusta la duración de la animación */
+}
+
+/* Animación del fondo */
+@keyframes moveBackground {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 10000px 10000px;
+    }
+}
+
+/* Contenido centrado */
+.content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
