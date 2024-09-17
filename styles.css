@@ -1,0 +1,24 @@
+/* Estilos generales para pantallas grandes (más de 600px) */
+body, td, th {
+    font-size: 12px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-style: normal;
+    font-weight: normal;
+    color: #E4E4E4;
+}
+
+body {
+    background-color: #222222;
+    padding: 20px;
+    max-width: 1200px; /* Límite de ancho para pantallas grandes */
+    }
+
+a:link, a:visited, a:active {
+    color: #31C82B;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #49904A;
+    text-decoration: none;
+}
